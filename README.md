@@ -1,81 +1,96 @@
-# Mordor
-[![Join the chat at https://gitter.im/eth-classic/mordor](https://badges.gitter.im/eth-classic/mordor.svg)](https://gitter.im/eth-classic/mordor?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# Kotti
+[![Join the chat at https://gitter.im/goerli/kotti](https://badges.gitter.im/goerli/kotti.svg)](https://gitter.im/goerli/kotti?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 <center>
-  <h3 align="center">Mordor</h3>
+  <h3 align="center">Kotti</h3>
   <p align="center">
     An Ethereum Classic PoW testnet to replace Morden Classic.
     <br />
-    <a href="https://blockscout.com/etc/mordor/">Explorer</a>
+    <a href="https://blockscout.com/etc/kotti/">Explorer</a>
     ·
-    <a href="https://mordor.dash.fault.dev/">Dashboard</a>
+    <a href="https://kotti.dash.fault.dev/">Dashboard</a>
     ·
-    <a href="https://mordor.fork.fault.dev/">Fork Mon</a>
+    <a href="https://kotti.fork.fault.dev/">Fork Mon</a>
     ·
-    <a href="http://mordor.canhaz.net/">Faucet</a>
+    <a href="http://kotti.canhaz.net/">Faucet</a>
     ·
-    <a href="https://github.com/eth-classic/mordor/issues/new">Create an Issue</a>
+    <a href="https://github.com/eth-classic/kotti/issues/new">Create an Issue</a>
   </p>
 </center>
 
-_Launch: October 3, 2019 at ETCSummit. [eth-classic/mordor#1](https://github.com/eth-classic/mordor/issues/1)_
+_Launch: December, 2018 by the Goerli Initiative. Read more: https://github.com/goerli/testnet
 
-<p align="center">
-<a href="https://www.youtube.com/watch?v=sURnZEeIqBU"><img src="https://img.youtube.com/vi/Msi6EItbslk/0.jpg" /></a>
-</p>
-
-- Network ID: `7`
-- Chain ID: `63`
+- Network ID: `6`
+- Chain ID: `6`
 - Frontier: `0`
 - Homestead: `0`
 - GasReprice: `0`
 - Diehard: `0`
 - Gotham: `0`
 - Defuse Difficulty Bomb: `0`
-- Atlantis: `0`
-- Agharta: `301_243`
-- Phoenix: `999_983`
-- Thanos: `2_520_000`
+- Atlantis: `716_617`
+- Agharta: `1_705_549`
+- Phoenix: `2_200_013`
+- Thanos: `N/A`
 
 ### Genesis hash
 
 ```
-0xa68ebde7932eccb177d38d55dcc6461a019dd795a681e59b5a3e4f3a7259a3f1
+0x14c2283285a88fe5fce9bf5c573ab03d6616695d717b12a127188bcacfc743c4
 ```
 
 ### Resources
 
 Status Dashboard:
-- https://mordor.dash.fault.dev
+- https://kotti.dash.fault.dev
 
 Fork Monitoring:
-- https://mordor.fork.fault.dev
+- https://kotti.fork.fault.dev
 
 Block Explorer:
-- https://blockscout.com/etc/mordor
-- https://expedition.dev/?network=mordor
+- https://blockscout.com/etc/kotti
+- https://expedition.dev/?network=kotti
 
-Faucet:
-- http://mordor.canhaz.net
+Faucets:
+- http://kotti.canhaz.net
+- http://kottifaucet.me/
 
-Public End Point:
-- https://www.ethercluster.com/mordor
+Public End Points:
+- https://www.ethercluster.com/kotti
 - https://services.fault.dev
 
 ### Core-Geth
 
-Minimum required version: `v1.11.16`
+Minimum required version: `v1.11.0`
 
 ```
-geth --mordor
+geth --kotti
 ```
 - https://github.com/etclabscore/core-geth/releases
 
 ### Hyperledger Besu
 
-Minimum required version: `v20.10.0-RC2`
+Minimum required version: `v1.4.1`
 
 ```
-besu --network mordor
+besu --network kotti
 ```
 - https://github.com/hyperledger/besu/releases
+
+### Nethermind (experimental)
+
+Minimum required version: `v1.6.0`
+
+```
+./Nethermind.Runner --config kotti
+```
+- https://github.com/NethermindEth/nethermind/releases
+
+### Open ETC (deprecated, formerly Open Ethereum, Parity Ethereum)
+
+Minimum required version: `v3.0.1`
+
+```
+openetc --chain kotti
+```
+- https://github.com/openetc/openetc/releases
