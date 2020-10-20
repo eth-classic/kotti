@@ -78,12 +78,15 @@ besu --network kotti
 
 ### Nethermind (experimental)
 
-Minimum required version: `v1.6.0`
+Minimum required version: `v1.8.92`
 
 ```
 ./Nethermind.Runner --config kotti 
 ```
-the nethermind.cfg needs to be copied into the config-directory and the nethermind.json into the chainspec-directory) after inflating nethermind itself and it's subfolders.
+download nethermind, inflate and then copy the nethermind.cfg into the config-subdirectory of nethermind 
+as well as the nethermind.json needs to be copy into the chainspec-subdirectory within the inflated nethermind-root-directory.
+if errors occur and ubuntu/debian is the env, then 
+```sudo apt-get update && sudo apt-get install libsnappy-dev libc6-dev libc6 unzip``` will help.
 
 - https://github.com/NethermindEth/nethermind/releases
 
