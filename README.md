@@ -12,13 +12,13 @@
     ·
     <a href="https://kotti.fork.fault.dev/">Fork Mon</a>
     ·
-    <a href="http://kotti.canhaz.net/">Faucet</a>
+    <a href="http://kottifaucet.me/">Faucet</a>
     ·
     <a href="https://github.com/eth-classic/kotti/issues/new">Create an Issue</a>
   </p>
 </center>
 
-_Launch: December, 2018 by the Goerli Initiative. Read more: https://github.com/goerli/testnet
+_Launch: December, 2018 by the Goerli Initiative. Read more: https://github.com/goerli/testnet_
 
 - Network ID: `6`
 - Chain ID: `6`
@@ -31,7 +31,7 @@ _Launch: December, 2018 by the Goerli Initiative. Read more: https://github.com/
 - Atlantis: `716_617`
 - Agharta: `1_705_549`
 - Phoenix: `2_200_013`
-- Thanos: `N/A`
+- ~~Thanos~~: `N/A` (not applicable for clique)
 
 ### Genesis hash
 
@@ -52,7 +52,6 @@ Block Explorer:
 - https://expedition.dev/?network=kotti
 
 Faucets:
-- http://kotti.canhaz.net
 - http://kottifaucet.me/
 
 Public End Points:
