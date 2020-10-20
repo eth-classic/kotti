@@ -83,7 +83,7 @@ Minimum required version: `v1.6.0`
 ```
 ./Nethermind.Runner --config kotti 
 ```
-(needs the nethermind.cfg to be copied into the config-directory and the nethermind.json into the chainspec-directory) after inflating nethermind itself and it's subfolders.
+the nethermind.cfg needs to be copied into the config-directory and the nethermind.json into the chainspec-directory) after inflating nethermind itself and it's subfolders.
 
 - https://github.com/NethermindEth/nethermind/releases
 
