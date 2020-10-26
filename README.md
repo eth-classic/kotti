@@ -78,11 +78,17 @@ besu --network kotti
 
 ### Nethermind (experimental)
 
-Minimum required version: `v1.6.0`
+Minimum required version: `v1.8.92`
 
 ```
-./Nethermind.Runner --config kotti
+./Nethermind.Runner --config nethermind 
 ```
+download nethermind, inflate and then copy the nethermind.cfg into the configs-subdirectory of nethermind 
+as well as the nethermind.json needs to be copied into the chainspec-subdirectory within the inflated nethermind-root-directory.
+if errors occur and ubuntu/debian is the env, then 
+```sudo apt-get update && sudo apt-get install libsnappy-dev libc6-dev libc6 unzip``` 
+will help.
+
 - https://github.com/NethermindEth/nethermind/releases
 
 ### Open ETC (deprecated, formerly Open Ethereum, Parity Ethereum)
